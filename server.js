@@ -1,8 +1,9 @@
 // initialize express Js
 const express = require("express");
 const fs = require('fs');
-const app = express();
 const crypto = require("crypto");
+
+const app = express();
 
 const algorithm = 'aes-256-cbc';
 
